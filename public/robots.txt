@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap for VietTrop Australia
+Sitemap: https://viettrop.github.io/viet-trop/sitemap.xml

@@ -1,0 +1,6 @@
+{
+  "name": "VietTrop – Taste Vietnam. Live Healthy.",
+  "description": "Authentic Vietnamese tropical dried fruit snacks for modern Australian lifestyles. Dispatched from Adelaide, South Australia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
