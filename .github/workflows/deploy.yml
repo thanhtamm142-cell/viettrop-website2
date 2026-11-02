@@ -28,15 +28,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # Note: cache: 'npm' removed to prevent "Dependencies lock file is not found" error
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
       - name: Build VietTrop for GitHub Pages subfolder
         env:
-          # Extract repository name dynamically or default to repo root subfolder
-          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_BASE_PATH: /viettrop-website2/
         run: npm run build
 
       - name: Upload GitHub Pages artifact

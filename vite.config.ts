@@ -4,8 +4,8 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  // Support GitHub Pages repository subfolder via VITE_BASE_PATH with relative fallback
-  const basePath = process.env.VITE_BASE_PATH || './';
+  // Support GitHub Pages repository subfolder via VITE_BASE_PATH with repository name fallback
+  const basePath = process.env.VITE_BASE_PATH || '/viettrop-website2/';
 
   return {
     base: basePath,

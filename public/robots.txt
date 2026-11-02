@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap for VietTrop Australia
-Sitemap: https://viettrop.github.io/viet-trop/sitemap.xml
+Sitemap: https://thanhtamm142-cell.github.io/viettrop-website2/sitemap.xml
